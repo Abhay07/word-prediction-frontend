@@ -1,4 +1,5 @@
 module.exports = {
 	lintOnSave:false,
-	publicPath:'/word-prediction-frontend'
+	publicPath:'/word-prediction-frontend',
+	outputDir:'docs'
 }
