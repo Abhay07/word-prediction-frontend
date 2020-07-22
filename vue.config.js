@@ -1,4 +1,4 @@
 module.exports = {
 	lintOnSave:false,
-	baseUrl:'/word-prediction-frontend'
+	publicPath:'/word-prediction-frontend'
 }
