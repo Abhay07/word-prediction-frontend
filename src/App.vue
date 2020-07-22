@@ -638,7 +638,7 @@ export default {
   },
   methods:{
     async loadModel(){
-      this.loadedModel = await tf.loadLayersModel('model.json')
+      this.loadedModel = await tf.loadLayersModel('/word-prediction-frontend/model.json')
       console.log('model loaded')
     },
     async predict(){
